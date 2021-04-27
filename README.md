@@ -5,7 +5,7 @@ Share some intersting paper about StyleGAN, especially StyleGAN Inversion.
 ## The pioneer in StyleGAN Inversion.
 1. [Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space?](https://arxiv.org/pdf/1904.03189.pdf)
 2. StyleGAN Encoder. [[code1](https://github.com/Puzer/stylegan-encoder)] [[code2](https://github.com/pbaylies/stylegan-encoder)]
-3. [Image2StyleGAN++: How to Edit the Embedded Images?]
+3. [Image2StyleGAN++: How to Edit the Embedded Images?](https://arxiv.org/pdf/1911.11544.pdf)
 
 Image2StyleGAN is the first paper in StyleGAN inversion. In this work, they conducted some interesting experiments which is meaningful to the future works. StyleGAN Encoder is another pioneer work, which takes the results of a nerual network as initial point of the next optimization produre. StyleGAN Encoder has two representative repos, in which `code1` is ealier and `code2` has better inversion effect. Image2StyleGAN++ was expanded to optimize both latent vector and the noise maps.
 
