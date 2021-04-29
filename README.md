@@ -23,3 +23,7 @@ Image2StyleGAN is the first paper in StyleGAN inversion. In this work, they cond
 1. [Designing an Encoder for StyleGAN Image Manipulation](https://arxiv.org/pdf/2102.02766.pdf).
 2. [Encoding in style: a stylegan encoder for image-to-image translation](https://arxiv.org/pdf/2008.00951.pdf).
 
+## An comprehensive survey
+1. [GAN Inversion: A Survey](https://arxiv.org/pdf/2101.05278.pdf). [github](https://github.com/weihaox/awesome-gan-inversion)
+  This paper comprehensively reviewed current papers of StyleGAN inversion.
+
