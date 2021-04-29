@@ -1,8 +1,7 @@
 # Novel-StyleGAN-Inversion-Papers
 Share some intersting paper about StyleGAN, especially StyleGAN Inversion.
 
-**The ultimate goal**
-To revise my paper [Collaborative Learning for Faster StyleGAN Embedding](https://arxiv.org/pdf/2007.01758.pdf), and revise the code.
+**The ultimate goal** is to revise my paper [Collaborative Learning for Faster StyleGAN Embedding](https://arxiv.org/pdf/2007.01758.pdf), and then release the code.
 
 * Why I need to revise my paper?
   I think I should hack into the details of GAN Inversion, such as the influence of interpolating (due to the different size of input and output images), the design of the encoder... What's more, I found there is no standard split to evaluate the inversion effect.
