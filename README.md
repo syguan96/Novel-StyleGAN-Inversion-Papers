@@ -26,7 +26,7 @@ Image2StyleGAN is the first paper in StyleGAN inversion. In this work, they cond
 3. [ReStyle: A Residual-Based StyleGAN Encoder via Iterative Refinement](https://arxiv.org/pdf/2104.02699.pdf).
     - ReStyle slacks the one-step forward pass to multi-step learning. This idea makes sense, which somewhat shares same spirt with [my paper]((https://arxiv.org/pdf/2007.01758.pdf)). My question is whether the Fig.6 can indicates general phenomenon.
 
-## An comprehensive survey
+## A comprehensive survey
 1. [GAN Inversion: A Survey](https://arxiv.org/pdf/2101.05278.pdf). [github](https://github.com/weihaox/awesome-gan-inversion)
   This paper comprehensively reviewed current papers of StyleGAN inversion.
 
