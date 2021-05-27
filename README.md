@@ -16,12 +16,15 @@ Image2StyleGAN is the first paper in StyleGAN inversion. In this work, they cond
 
 ### TODO
 - [x] Reproduce [Image2StyleGAN](https://github.com/syguan96/Image2StyleGAN)  
-- [ ] Reproduce Image2StyleGAN++
+- [ ] Reproduce Image2StyleGAN++. 
+  - I won't reimplement Image2StyleGAN++ right now.
 
 -----
 ## How to design the encoder? These papers give their solutions.
 1. [Designing an Encoder for StyleGAN Image Manipulation](https://arxiv.org/pdf/2102.02766.pdf).
 2. [Encoding in style: a stylegan encoder for image-to-image translation](https://arxiv.org/pdf/2008.00951.pdf).
+3. [ReStyle: A Residual-Based StyleGAN Encoder via Iterative Refinement](https://arxiv.org/pdf/2104.02699.pdf).
+    - ReStyle slacks the one-step forward pass to multi-step learning. This idea makes sense, which somewhat share same spirts with My paper. My question is if the Fig.6 can inficate general phenomenon.
 
 ## An comprehensive survey
 1. [GAN Inversion: A Survey](https://arxiv.org/pdf/2101.05278.pdf). [github](https://github.com/weihaox/awesome-gan-inversion)
