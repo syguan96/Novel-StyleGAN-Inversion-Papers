@@ -29,4 +29,8 @@ Image2StyleGAN is the first paper in StyleGAN inversion. In this work, they cond
 ## A comprehensive survey
 1. [GAN Inversion: A Survey](https://arxiv.org/pdf/2101.05278.pdf). [github](https://github.com/weihaox/awesome-gan-inversion)
   This paper comprehensively reviewed current papers of StyleGAN inversion.
+  
+## Tools
+1. Learning Continuous Image Representation With Local Implicit Image Function. Nice work.
+
 
