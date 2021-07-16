@@ -30,6 +30,11 @@ Image2StyleGAN is the first paper in StyleGAN inversion. In this work, they cond
 1. [GAN Inversion: A Survey](https://arxiv.org/pdf/2101.05278.pdf). [github](https://github.com/weihaox/awesome-gan-inversion)
   This paper comprehensively reviewed current papers of StyleGAN inversion.
   
+## 3D application
+1. [DO 2D GANS KNOW 3D SHAPE? UNSUPERVISED 3D SHAPE RECONSTRUCTION FROM 2D IMAGE GANS](https://arxiv.org/pdf/2011.00844.pdf). [github](https://github.com/XingangPan/GAN2Shape)
+  - A fancy pipline in which takes gan inversion as a render step can unsupervised reconstructed 3D infos of objects.
+  - They use discriminator's feature and l2 regularization term to constraint gan inversion step.
+
 ## Tools
 1. Learning Continuous Image Representation With Local Implicit Image Function. Nice work.
 
