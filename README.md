@@ -34,7 +34,14 @@ Image2StyleGAN is the first paper in StyleGAN inversion. In this work, they cond
 1. [Exploiting Deep Generative Prior for Versatile Image Restoration and Manipulation.](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123470256.pdf)[[github](https://github.com/XingangPan/deep-generative-prior)]
     - The discriminator-based constraint and progressively training policy are interesting.
   
-## 3D application
+## Application
+1. [In&Out : Diverse Image Outpainting via GAN Inversion](https://arxiv.org/pdf/2104.00675.pdf)
+    - Outpainting is an interesting application by patch-based inversion.
+    - The prior loss part again point out how to ensure the inversed latent code staying in the gan domain.
+2. [Exploiting Spatial Dimensions of Latent in GAN for Real-time Image Editing.](https://arxiv.org/pdf/2104.14754.pdf) [[github](https://github.com/naver-ai/StyleMapGAN)]
+    - First training an encoder to inverse images. Then combine the guidence image and the source image in the feature-level to realize local editting effect.
+
+### 3D application
 1. [DO 2D GANS KNOW 3D SHAPE? UNSUPERVISED 3D SHAPE RECONSTRUCTION FROM 2D IMAGE GANS.](https://arxiv.org/pdf/2011.00844.pdf). [[github](https://github.com/XingangPan/GAN2Shape)]
     - A fancy pipline in which takes gan inversion to reduce the artifacts of hand-crafted images, so that enabling training decompositional network.
     - They use discriminator's feature and l2 regularization term to constraint gan inversion step. Particularly, the form of l2 regularization is noticable.
