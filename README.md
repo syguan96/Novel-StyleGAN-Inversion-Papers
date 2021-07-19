@@ -27,7 +27,7 @@ Image2StyleGAN is the first paper in StyleGAN inversion. In this work, they cond
     - ReStyle slacks the one-step forward pass to multi-step learning. This idea makes sense, which somewhat shares same spirt with [my paper]((https://arxiv.org/pdf/2007.01758.pdf)). My question is whether the Fig.6 can indicates general phenomenon.
 
 ## How to constraint the gan inversion?
-1. [Exploiting Deep Generative Prior for Versatile Image Restoration and Manipulation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123470256.pdf)
+1. [Exploiting Deep Generative Prior for Versatile Image Restoration and Manipulation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123470256.pdf)[[github](https://github.com/XingangPan/deep-generative-prior)]
   - The discriminator-based constraint and progressively training policy are interesting.
 
 ## A comprehensive survey
@@ -35,7 +35,7 @@ Image2StyleGAN is the first paper in StyleGAN inversion. In this work, they cond
   This paper comprehensively reviewed current papers of StyleGAN inversion.
   
 ## 3D application
-1. [DO 2D GANS KNOW 3D SHAPE? UNSUPERVISED 3D SHAPE RECONSTRUCTION FROM 2D IMAGE GANS](https://arxiv.org/pdf/2011.00844.pdf). [[github]](https://github.com/XingangPan/GAN2Shape)
+1. [DO 2D GANS KNOW 3D SHAPE? UNSUPERVISED 3D SHAPE RECONSTRUCTION FROM 2D IMAGE GANS](https://arxiv.org/pdf/2011.00844.pdf). [[github](https://github.com/XingangPan/GAN2Shape)]
   - A fancy pipline in which takes gan inversion to reduce the artifacts of hand-crafted images, so that enabling training decompositional network.
   - They use discriminator's feature and l2 regularization term to constraint gan inversion step. Particularly, the form of l2 regularization is noticable.
   - They also realized that gan inversion cannot preserve all semantics of the original instance.
