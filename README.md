@@ -33,6 +33,8 @@ Image2StyleGAN is the first paper in StyleGAN inversion. In this work, they cond
 ## How to constraint the gan inversion?
 1. [Exploiting Deep Generative Prior for Versatile Image Restoration and Manipulation.](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123470256.pdf)[[github](https://github.com/XingangPan/deep-generative-prior)]
     - The discriminator-based constraint and progressively training policy are interesting.
+2. [LOHO: Latent Optimization of Hairstyles via Orthogonalization](https://arxiv.org/pdf/2103.03891.pdf)
+    - how to design constraints on hair? this paper gives an answer.
   
 ## Application
 1. [In&Out : Diverse Image Outpainting via GAN Inversion](https://arxiv.org/pdf/2104.00675.pdf)
