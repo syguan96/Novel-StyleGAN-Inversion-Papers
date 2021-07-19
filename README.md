@@ -40,6 +40,9 @@ Image2StyleGAN is the first paper in StyleGAN inversion. In this work, they cond
     - The prior loss part again point out how to ensure the inversed latent code staying in the gan domain.
 2. [Exploiting Spatial Dimensions of Latent in GAN for Real-time Image Editing.](https://arxiv.org/pdf/2104.14754.pdf) [[github](https://github.com/naver-ai/StyleMapGAN)]
     - First training an encoder to inverse images. Then combine the guidence image and the source image in the feature-level to realize local editting effect.
+3. [InfinityGAN: Towards Infinite-Resolution Image Synthesis](https://arxiv.org/pdf/2104.03963.pdf)
+    - novel work. **deserve to be read once more.**
+
 
 ### 3D application
 1. [DO 2D GANS KNOW 3D SHAPE? UNSUPERVISED 3D SHAPE RECONSTRUCTION FROM 2D IMAGE GANS.](https://arxiv.org/pdf/2011.00844.pdf). [[github](https://github.com/XingangPan/GAN2Shape)]
